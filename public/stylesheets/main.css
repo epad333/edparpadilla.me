@@ -1,0 +1,224 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+
+.banner{
+    position: relative;
+    background-image: url("/Images/theBean.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 33vh;
+    
+    -webkit-background-size: cover;
+    
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a{
+    color:#ce3b3b;
+}
+a:hover{
+    color: #3ca3f2;
+    text-decoration: none;
+    
+}
+
+#logo{
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
+   margin-left: 5px;
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ .nav-item{
+    text-align: right;
+}
+
+.nav-link{
+    text-align: right;
+    
+}
+
+.nav-link:hover{
+    color:#3ca3f2;
+    
+}
+
+.description{
+    width: 75%;
+    text-align: center;
+margin: auto;
+    font-size: 1.25em;
+    
+}
+
+#bar{
+    background-color: #ce3b3b;
+    height: 7px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+.category{
+    color: #ce3b3b;
+}
+
+#accordion{
+   padding-bottom: 150px;
+}
+
+
+.panel-title  a:after {
+  content: "\f078"; 
+  font-family: 'FontAwesome';
+}
+.panel-title  a[aria-expanded="true"]:after {
+  content: "\f077"; 
+}
+
+.panel-title{
+    text-align: center;
+    
+}
+#toolkit{
+    color: #ce3b3b;
+    
+}
+
+#toolkit:hover{
+    color:#3ca3f2;
+    text-decoration: none;
+}
+.panel-body{
+    width:50%;
+    margin: auto;
+}
+
+/*hr {*/
+/*    display: block;*/
+/*    width:100%;*/
+/*}*/
+
+.not-found{
+    background-color: #100847;
+    
+}
+.nf-card{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+
+
+.stadion-pic{
+    
+    width: auto;
+    height: auto;
+    
+}
+.events-pic{
+ 
+  display: block;
+  max-width:50%;
+  
+  width: auto;
+  height: auto;
+}
+.caption{
+    display: inline;
+}
+
+.projects {
+  
+  
+  display:block;
+  width: 100%;               
+  background-color:#c0c6d1;
+  height: 1px;
+  
+  margin-top:25px;
+}
+
+hr{
+      display:block;
+  width: 100%;               
+  
+  height: 2px;
+    
+}
+
+.details{
+    padding-left: 25px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.code-link{
+    color:#ce3b3b;
+    text-decoration: none;
+}
+.code-link:hover{
+    color:#3ca3f2;
+    text-decoration: none;
+}
+
+.site-link{
+    color:#ce3b3b;
+    text-decoration: none;
+    
+}
+
+
+.site-link:hover{
+    color:#3ca3f2;
+    text-decoration: none;
+}
+
+.project-description{
+    line-height: 40px;
+}
+
+.contact-intro{
+    text-align: center;
+    font-size: 600%;
+}
+    
+
+
+.contact-icons{
+    text-align: center;
+    font-size: 70px;
+    
+}
+.contact-icons a{
+    color:#ce3b3b;
+}
+
+.contact-icons a:hover{
+    color: #3ca3f2;
+}
+
+
